@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report an Issue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Report an Issue</h1></header>
+
+  <main>
+    <form id="reportForm" class="form-box">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="text" id="location" placeholder="Issue Location" required>
+      <textarea id="description" placeholder="Describe the issue..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="msg"></p>
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
